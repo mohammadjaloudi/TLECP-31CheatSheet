@@ -8,6 +8,7 @@ signed main() {
     cin.tie(NULL);
 
     string a; cin >> a;
+    a += '{';
     sort(a.begin(),a.end());
     int cnt = 1;
     
